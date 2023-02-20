@@ -20,7 +20,14 @@ Ever writing a Jupyter notebook and you want to use a token, where do you set it
 Mu .env reader, because [`dotenv` name on PYPI is already taken](https://pypi.org/project/dotenv/), and https://github.com/theskumar/python-dotenv is a bit more full-features or more than too simple.
 
 ## Install
-TODO
+
+```
+pip install git+https://github.com/hvnsweeting/uenv
+```
+
+Or
+
+#### TODO
 
 ```
 pip install uenv
