@@ -5,6 +5,7 @@ Tiny simple .env reader.
 ```py
 import uenv
 ```
+it will set ENVIRONMENT variables from the .env file.
 
 ## Why
 Ever writing a Jupyter notebook and you want to use a token, where do you set it?
@@ -22,15 +23,13 @@ Mu .env reader, because [`dotenv` name on PYPI is already taken](https://pypi.or
 ## Install
 
 ```
-pip install git+https://github.com/hvnsweeting/uenv
+pip install uenv
 ```
 
 Or
 
-#### TODO
-
 ```
-pip install uenv
+pip install git+https://github.com/hvnsweeting/uenv
 ```
 
 or open uenv.py then copy 5 lines of code.
